@@ -1,0 +1,7 @@
+runtime=neon
+image_source=camera
+capture_or_copy_ms=2313.370
+conversion_ms=105.952
+analysis_ms=13.435
+generation_ms=687.798
+total_ms=3120.692

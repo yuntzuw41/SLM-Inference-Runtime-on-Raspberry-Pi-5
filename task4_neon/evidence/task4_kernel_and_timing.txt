@@ -1,0 +1,116 @@
+== power ==
+throttled=0x0
+temp=51.0'C
+== build ==
+== test_neon ==
+Row    Scalar        NEON          Abs Error
+------------------------------------------------
+0      1.04999995    1.04999995    0.0000000000
+1      -0.63750005   -0.63750005   0.0000000000
+2      -0.97500008   -0.97500008   0.0000000000
+
+Maximum absolute error: 0.0000000000
+Correctness Test: PASS
+== benchmark run 1 ==
+Matrix dimensions: 2048 x 768
+Iterations: 300
+Scalar total: 393.867 ms
+NEON total: 99.117 ms
+Scalar average: 1.312889 ms
+NEON average: 0.330391 ms
+Speedup: 3.974x
+Maximum absolute error: 0.000000063
+Checksum: -0.064400
+== benchmark run 2 ==
+Matrix dimensions: 2048 x 768
+Iterations: 300
+Scalar total: 393.586 ms
+NEON total: 99.969 ms
+Scalar average: 1.311952 ms
+NEON average: 0.333230 ms
+Speedup: 3.937x
+Maximum absolute error: 0.000000063
+Checksum: -0.064400
+== benchmark run 3 ==
+Matrix dimensions: 2048 x 768
+Iterations: 300
+Scalar total: 393.596 ms
+NEON total: 99.589 ms
+Scalar average: 1.311986 ms
+NEON average: 0.331965 ms
+Speedup: 3.952x
+Maximum absolute error: 0.000000063
+Checksum: -0.064400
+== original benchmark_neon binary ==
+Matrix dimensions: 2048 x 768
+Iterations: 300
+Scalar total: 393.507 ms
+NEON total: 99.822 ms
+Scalar average: 1.311690 ms
+NEON average: 0.332740 ms
+Speedup: 3.942x
+Maximum absolute error: 0.000000063
+Checksum: -0.064400
+== timing scalar run 1 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 178.744 ms
+TPOT: 12.862 ms/token
+Decode throughput: 77.748 tok/s
+== timing neon run 1 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 69.561 ms
+TPOT: 4.920 ms/token
+Decode throughput: 203.241 tok/s
+== timing scalar run 2 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 178.786 ms
+TPOT: 12.861 ms/token
+Decode throughput: 77.752 tok/s
+== timing neon run 2 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 68.311 ms
+TPOT: 4.935 ms/token
+Decode throughput: 202.632 tok/s
+== timing scalar run 3 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 178.737 ms
+TPOT: 12.855 ms/token
+Decode throughput: 77.792 tok/s
+== timing neon run 3 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 68.733 ms
+TPOT: 4.920 ms/token
+Decode throughput: 203.242 tok/s
+== timing scalar run 4 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 178.648 ms
+TPOT: 12.874 ms/token
+Decode throughput: 77.678 tok/s
+== timing neon run 4 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 68.501 ms
+TPOT: 4.921 ms/token
+Decode throughput: 203.190 tok/s
+== timing scalar run 5 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 178.639 ms
+TPOT: 12.860 ms/token
+Decode throughput: 77.758 tok/s
+== timing neon run 5 ==
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 68.507 ms
+TPOT: 4.930 ms/token
+Decode throughput: 202.856 tok/s
+== power after ==
+throttled=0x0
+temp=61.5'C

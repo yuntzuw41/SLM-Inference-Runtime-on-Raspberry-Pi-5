@@ -1,0 +1,45 @@
+
+========== HSV Color Analysis ==========
+Image: image.ppm
+Resolution: 640 x 480
+Total Pixels: 307200
+
+Red     :   2.32%
+Orange  :   7.92%
+Yellow  :  12.07%
+Green   :   6.48%
+Cyan    :  22.94%
+Blue    :  12.17%
+Purple  :   1.97%
+Pink    :   1.30%
+Brown   :   3.05%
+White   :   0.07%
+Gray    :  20.56%
+Black   :   1.27%
+Other   :   7.88%
+
+Dominant Color: Cyan
+Dominant Recognized Color: Cyan
+
+========== Environment Scores ==========
+Sunny Sky         : Not matched
+Night Sky         : Not matched
+Forest            : Not matched
+Ocean             : Not matched
+Desert            : Not matched
+Snowy Landscape   : Not matched
+Sunset            : Not matched
+Flower Garden     : Not matched
+City              : Not matched
+Grassland         : Not matched
+========================================
+Fallback based on dominant color: Cyan
+
+Estimated Environment: Unknown
+Environment Score: N/A
+
+Generated Prompt:
+Once upon a time, in a magical place filled with cyan colors,
+
+Prompt saved to prompt.txt
+========================================

@@ -1,0 +1,11 @@
+Round,Runtime,Tokens_per_sec
+1,scalar,76.690821
+1,neon,203.200000
+2,neon,203.852327
+2,scalar,77.818627
+3,scalar,77.866340
+3,neon,199.059561
+4,neon,202.551834
+4,scalar,77.961940
+5,scalar,76.969697
+5,neon,202.875399

@@ -1,0 +1,16 @@
+stories15M.bin
+gmon.out
+*.ppm
+llama2.c
+task2_pi_setup/hello
+task3_baseline/run_scalar
+task4_neon/run_scalar
+task4_neon/run_neon
+task4_neon/run_scalar_timing
+task4_neon/run_neon_timing
+task4_neon/test_neon
+task4_neon/benchmark_neon
+task4_neon/run_profile
+task4_neon/run_profile_noinline
+task5_camera_app/camera_story
+task5_camera_app/image_analysis

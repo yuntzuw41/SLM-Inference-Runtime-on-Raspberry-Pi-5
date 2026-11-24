@@ -1,0 +1,6 @@
+$ gcc -Wall -O2 hello.c -o hello
+$ ./hello
+Hello from Raspberry Pi 5!
+ECPS 205 - Native C Compilation Test
+$ file hello
+hello: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=3d5438cf610cb37844a0bb03dc19f012c55eccff, for GNU/Linux 3.7.0, not stripped

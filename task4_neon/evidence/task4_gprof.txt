@@ -1,0 +1,35 @@
+===== A: -O2 -pg (same as report) =====
+achieved tok/s: 76.898327
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+100.05      3.11     3.11      240     0.01     0.01  forward
+  0.00      3.11     0.00     8640     0.00     0.00  softmax
+  0.00      3.11     0.00     3120     0.00     0.00  rmsnorm
+  0.00      3.11     0.00     1517     0.00     0.00  str_lookup
+  0.00      3.11     0.00      239     0.00     0.00  decode
+  0.00      3.11     0.00      239     0.00     0.00  safe_printf
+  0.00      3.11     0.00      227     0.00     0.00  sample
+  0.00      3.11     0.00        1     0.00     0.00  build_tokenizer
+  0.00      3.11     0.00        1     0.00     0.00  build_transformer
+  0.00      3.11     0.00        1     0.00     0.00  encode
+
+===== B: -O2 -pg -fno-inline (matmul visible) =====
+achieved tok/s: 77.246283
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 95.53      2.96     2.96    10320     0.00     0.00  matmul
+  3.23      3.06     0.10      240     0.00     0.01  forward
+  0.65      3.08     0.02      227     0.00     0.00  sample_argmax
+  0.32      3.09     0.01     8640     0.00     0.00  softmax
+  0.32      3.10     0.01     3120     0.00     0.00  rmsnorm
+  0.00      3.10     0.00     1517     0.00     0.00  str_lookup
+  0.00      3.10     0.00      239     0.00     0.00  decode
+  0.00      3.10     0.00      239     0.00     0.00  safe_printf
+  0.00      3.10     0.00      227     0.00     0.00  sample
+  0.00      3.10     0.00        2     0.00     0.00  time_in_ms

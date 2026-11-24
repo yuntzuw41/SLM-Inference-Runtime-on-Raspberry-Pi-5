@@ -1,0 +1,44 @@
+
+========== HSV Color Analysis ==========
+Image: image.ppm
+Resolution: 640 x 480
+Total Pixels: 307200
+
+Red     :   0.30%
+Orange  :   7.47%
+Yellow  :   2.76%
+Green   :  13.08%
+Cyan    :  36.05%
+Blue    :   8.51%
+Purple  :   0.00%
+Pink    :   0.02%
+Brown   :  16.33%
+White   :   0.47%
+Gray    :   7.70%
+Black   :   0.02%
+Other   :   7.29%
+
+Dominant Color: Cyan
+Dominant Recognized Color: Cyan
+
+========== Environment Scores ==========
+Sunny Sky         : Not matched
+Night Sky         : Not matched
+Forest            : Not matched
+Ocean             : Not matched
+Desert            : Not matched
+Snowy Landscape   : Not matched
+Sunset            : Not matched
+Flower Garden     : Not matched
+City              : Not matched
+Grassland         : Not matched
+========================================
+
+Estimated Environment: Unknown
+Environment Score: N/A
+
+Generated Prompt:
+Once upon a time, in a colorful and mysterious place,
+
+Prompt saved to prompt.txt
+========================================

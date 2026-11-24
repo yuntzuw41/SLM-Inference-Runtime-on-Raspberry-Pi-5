@@ -1,0 +1,5 @@
+Prompt tokens: 14
+Generated tokens: 115
+TTFT: 210.550 ms
+TPOT: 12.882 ms/token
+Decode throughput: 77.629 tok/s

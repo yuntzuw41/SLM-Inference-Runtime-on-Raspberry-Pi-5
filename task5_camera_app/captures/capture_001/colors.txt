@@ -1,0 +1,44 @@
+
+========== HSV Color Analysis ==========
+Image: image.ppm
+Resolution: 640 x 480
+Total Pixels: 307200
+
+Red     :   0.03%
+Orange  :   0.00%
+Yellow  :   0.00%
+Green   :   1.44%
+Cyan    :   3.04%
+Blue    :  35.84%
+Purple  :   0.16%
+Pink    :   0.09%
+Brown   :   0.00%
+White   :  13.67%
+Gray    :  36.35%
+Black   :   0.07%
+Other   :   9.32%
+
+Dominant Color: Gray
+Dominant Recognized Color: Gray
+
+========== Environment Scores ==========
+Sunny Sky         : 26.97
+Night Sky         : Not matched
+Forest            : Not matched
+Ocean             : Not matched
+Desert            : Not matched
+Snowy Landscape   : Not matched
+Sunset            : Not matched
+Flower Garden     : Not matched
+City              : Not matched
+Grassland         : Not matched
+========================================
+
+Estimated Environment: Sunny Sky
+Environment Score: 26.97
+
+Generated Prompt:
+Once upon a time, under a beautiful blue sky,
+
+Prompt saved to prompt.txt
+========================================

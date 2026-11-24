@@ -1,0 +1,45 @@
+
+========== HSV Color Analysis ==========
+Image: image.ppm
+Resolution: 640 x 480
+Total Pixels: 307200
+
+Red     :   1.55%
+Orange  :   0.00%
+Yellow  :   0.76%
+Green   :   2.95%
+Cyan    :   8.60%
+Blue    :  13.75%
+Purple  :   1.62%
+Pink    :   0.33%
+Brown   :  25.41%
+White   :   6.82%
+Gray    :  16.88%
+Black   :   0.20%
+Other   :  21.12%
+
+Dominant Color: Brown
+Dominant Recognized Color: Brown
+
+========== Environment Scores ==========
+Sunny Sky         : Not matched
+Night Sky         : Not matched
+Forest            : Not matched
+Ocean             : Not matched
+Desert            : Not matched
+Snowy Landscape   : Not matched
+Sunset            : Not matched
+Flower Garden     : Not matched
+City              : Not matched
+Grassland         : Not matched
+========================================
+Fallback based on dominant color: Brown
+
+Estimated Environment: Unknown
+Environment Score: N/A
+
+Generated Prompt:
+Once upon a time, in a world painted in earthy brown colors,
+
+Prompt saved to prompt.txt
+========================================

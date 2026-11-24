@@ -1,0 +1,11 @@
+$ ls -lh stories15M.bin tokenizer.bin
+-rw-rw-r-- 1 yuntzuw yuntzuw  58M Nov  5 17:50 stories15M.bin
+-rw-rw-r-- 1 yuntzuw yuntzuw 424K Nov  5 17:50 tokenizer.bin
+$ gcc -O3 -o run_task3 run.c -lm
+$ file run_task3
+run_task3: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=c403dd9ef85e59af8b5cb34a4e5664ea46424e8f, for GNU/Linux 3.7.0, not stripped
+$ ./run_task3 stories15M.bin -t 0 -n 128 -s 42 -i "Once upon a time, there was a little robot named Alex."
+Once upon a time, there was a little robot named Alex. Alex was very brave and loved to explore the world. One day, Alex was walking through the forest when he saw a big, scary bear. Alex was very scared and started to run away.
+Suddenly, Alex heard a voice. It was a little girl named Lily. She said, "Don't be scared, Alex. I'm here to help you." Alex was surprised and asked, "How can you help me?"
+Lily said, "I can help you. I know a secret way to get out ofachieved tok/s: 77.439024
+

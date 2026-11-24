@@ -1,0 +1,7 @@
+runtime=neon
+image_source=existing_file
+capture_or_copy_ms=0.100
+conversion_ms=515.067
+analysis_ms=13.003
+generation_ms=1397.608
+total_ms=1925.907
